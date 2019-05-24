@@ -1,0 +1,12 @@
+<form [formGroup]="personne">
+  <input type="text" formControlName="firstname" >
+  <input type="text" formControlName="lastname" >
+
+</form>
+<form [formGroup]="personne" (click)="register()"> <br>
+<button (click) ="register($event)">Submit</button>
+</form>
+
+
+
+
